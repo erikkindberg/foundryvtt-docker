@@ -125,7 +125,7 @@ async fn complete_installation(
     ));
 
     // Check for foundry script existence
-    let foundry_script_path = Path::new("/foundryvtt/resources/app/main.js");
+    let foundry_script_path = Path::new("/foundryvtt/main.js");
     if foundry_script_path.exists() {
         info!(
             "Foundry main.js detected after extraction: {}",
